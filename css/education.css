@@ -1,0 +1,26 @@
+table{
+    border: 1px solid rgb(5, 212, 142);
+}
+td {
+    padding: 2px;
+    border: 1px solid rgb(5, 212, 142);
+}
+#course-name{
+    font-weight:bold;
+}
+
+.technicalSkills{
+    display: none;
+}
+.universityCourses{
+    display: none;
+}
+.otherITCourses{
+    display: none;
+}
+.otherMerits {
+    display: none;
+}
+.leadershipEducation{
+    display: none;
+}
