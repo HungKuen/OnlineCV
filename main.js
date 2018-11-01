@@ -63,10 +63,10 @@ $(".toggleLassesMatstuga").click(function(){
         $(".leadershipEducation").toggle();
     });
     $("#toggleOtherMerits").click(function() {
-        $(".othermerits").toggle();
+        $(".otherMerits").toggle();
     });
     $(".toggleOtherMerits").click(function() {
-        $(".othermerits").toggle();
+        $(".otherMerits").toggle();
     });
 
 
@@ -86,7 +86,7 @@ function sendmail() {
 
 
 
-$('#utbildning').click(function() {
+$('#education').click(function() {
     let pageTitle = 'Magnus Kull CV | ' + $(this).html();
     $.address.value($(this).attr('href').replace(/^#/, ''));
     $.address.title(pageTitle);

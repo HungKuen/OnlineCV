@@ -1,0 +1,123 @@
+#header
+{
+    position: fixed;
+    z-index: 2;
+    height:40px;
+    width: 98%;
+    background-color: #4CAF50;/* Green */
+    margin-top:-10px;
+    }
+#linkedinimage{
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(0,119,181);/* Blue */
+}
+#header2{
+    position: fixed;
+    z-index: 1;
+    width: 98%;
+    background-color: #4CAF50;/* Green */
+    margin-top:20px;
+}
+#header2:hover {
+    cursor: pointer;
+}
+.topMenu{
+    padding-left: 1em;
+    color: rgb(0, 0, 0);
+}
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;/* White */
+}
+a:hover {
+    font-weight: bold;
+}
+.wrapper{
+    max-width: 800px;
+}
+.informationBlock{
+    float: left;
+    margin-top: 75px;
+    padding-left:5px;
+    height: auto;
+    width: 99%;
+    background-color: #ffffff;
+}
+#footer{
+    clear:both;
+    position: relative;
+    background-color: #4CAF50;
+    text-align: center;
+}
+.toggleHeadline{
+    background-color: #ffffff; /* Vit */
+    border: none;
+    color: rgb(5, 212, 142);
+    padding: 0px 0px 0px 2em;
+    font-size: 16px;
+}
+.toggleHeadline:hover {
+    color: #4CAF50;
+    cursor: pointer;
+}
+.toggleHeadline span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.toggleHeadline span:after {
+    content: '\2039\2039';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.toggleHeadline:hover span {
+    padding-right: 25px;
+}
+.toggleHeadline:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button {
+    background-color: #ffffff; /* Vit */
+    border: none;
+    color: rgb(5, 212, 142);
+    padding: 0px 0px 0px 2em;
+    font-size: 16px;
+}
+.button:hover {
+    color: #4CAF50;
+    cursor: pointer;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
