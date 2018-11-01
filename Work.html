@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head xmlns="http://www.w3.org/1999/html">
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magnus Kull CV</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div id="header">
+        <p id="name">Magnus Kull CV Jobb</p>
+
+        <i class="fa fa-linkedin" onclick="openLinkedin()" id="linkedinimage" style="font-size:32px"></i>
+        <i class="fa fa-github" onclick="openGitHub()" style="font-size:32px;color: #bd2c00"></i>
+        <i class="fa fa-envelope-o" onclick="sendmail()" id="emailID" style="font-size:32px;color:rgb(255,255,255)"></i>
+
+    </div>
+    <div id="header2">
+
+        <p><a href="Work.html" class="topMenu"><span> Jobb </span></a><a href="Education.html" class="topMenu"><span> Utbildningar </span></a>
+            <a href="Personal.html" class="topMenu"><span> Personlig beskrivning </span></a><a class="topMenu" href="CV2018Academic.pdf" download="Magnus Kull CV"><span> <i class="fa fa-download"></i> PDF</span></a></p></div>
+
+
+    <div class="right">
+
+
+<p>
+        <button id="toggleCybercom" class="button"><a id="company-name"><span>Cybercom 2018</span></a></button>
+        <button id="toggleTelia" class="button"><a id="company-name"><span>Telia Company 2012-2018</span></a>
+        </button>
+
+        <button id="toggleBevaka" class="button"><a id="company-name"><span>Bevaka 2012</span></a></button>
+
+        <button id="toggleMitab" class="button"><a id="company-name"><span>Mitab 2009-2010</span></a></button>
+        <button id="toggleCoopHaga" class="button"><a id="company-name"><span>Coop NäraHaga 2006-2007</span></a>
+        </button>
+        <button id="toggleLassesMatstuga" class="button"><a id="company-name"><span>Lasses Matstuga 2003-2009</span>
+        </a></button>
+</p>
+        <div class="cybercom">
+        <button class="toggleCybercom" class="button"><a><span>Cybercom</span></a></button>
+
+        <ul id="job-title"><strong>Junior utvecklare</strong></ul>
+        <ul>
+            <li>Uppdraderade ett installations paket från sql express 2014 till sql express 2017</li>
+            <li>Inkluderade SQL command utilitys till paketet</li>
+        </ul>
+        </div>
+
+
+        <div class="telia">
+
+            <button class="toggleTelia" class="button"><a><span>Telia</span></a></button>
+           <ul><p id="job-title"><strong>Privatkundtjänst, Support</strong></p></ul>
+        <ul>
+            <li>Ansvara för kundmöten över telefon</li>
+            <li>Hjälpa privata kunder med koppar/fiber/mobila utmaningar/problem</li>
+            <li>Målsättning på samtalslängd och kundnöjdhet</li>
+        </ul>
+
+        <ul><p id="job-title"><strong>Företagskundtjänst, Säljare</strong></p></ul>
+        <ul>
+            <li>Kundmöten över telefon eller epost</li>
+            <li>Sättet vi jobbade med försäljning var att bygga relationer och utföra behovsanalyser på små och
+                medelstora företag
+            </li>
+            <li>Målsättning på volym-, nyförsäljning och kundnöjdhet</li>
+        </ul>
+
+        <ul><p id="job-title"><strong>BO Tech:3, 2:line Mobilsupport</strong></p></ul>
+        <ul>
+            <li>Ansvara för kundmöten(internt och externt) över telefon, epost och ärendehanteringssystem</li>
+            <li>Ansvara för felsökning av mobilmaster och felanmälan</li>
+            <li>Ansvara för support på VAS tjänster (spotify/readly/storytel)</li>
+            <li>Filtrering mellan support på Telia sense och verksamhetsutvecklingen</li>
+        </ul>
+        <ul><p id="job-title"><strong>Personlig tekniker, Personlig tekniker online</strong></p></ul>
+        <ul>
+            <li>Ansvara för kundmöten över telefon, epost och ärendehanteringssystem</li>
+            <li>Fjärrstyra kundernas datorer och telefoner för felsökning</li>
+            <li>Målstyrning på antal betalärenden och antal ärenden</li>
+        </ul>
+        <ul><p id="job-title"><strong>Sido uppdrag, SEKO och <a href="https://younite.teliacompany.net/about"
+                                                                       target="_blank"> Telia Younite</a></strong></p></ul>
+        <ul>
+            <li>Förtroendevald SEKO: Varit med i valberedningen och kontaktombud</li>
+            <li>Med i ledningsgruppen för Telia Sveriges Younite-satsning</li>
+            <ul>
+                <li>Utveckla koncepten inom Younite</li>
+                <li>Engagera samtliga medarbete i Sundsvall</li>
+                <li>Drivit ett samarbete med Samhall</li>
+                <li>Introducerat barn till programmering genom block programmering</li>
+            </ul>
+        </ul>
+        </div>
+
+        <div class="bevaka">
+            <button class="toggleBevaka" class="button"><a><span>Bevaka</span></a></button>
+
+        <ul><p id="job-title"><strong>Arrestvakt</strong></p></ul>
+        <ul class="bevaka">
+            <li>Omhändertagande av arresterade och LOB:ade personer</li>
+            <li>Bistå polisen med hjälp vid behov</li>
+        </ul>
+        </div>
+        <div class="mitab">
+            <button class="toggleMitab" class="button"><a><span>Mitab</span></a></button>
+
+            <ul><p id="job-title"><strong>Industrisanerare </strong></p></ul>
+        <ul class="mitab">
+            <li>Intrustritvätt av oljedepåer/kokare inom träindustrin/korstaverket/akzo nobel</li>
+            <li>Snöskottning</li>
+            <li>Bilning</li>
+        </ul>
+        </div>
+
+
+        <div class="coophaga">
+            <button class="toggleCoopHaga" class="button"><a><span>Coop NäraHaga</span></a></button>
+
+            <ul><p id="job-title"><strong>Butiksbiträde</strong></p></ul>
+        <ul class="coophaga">
+            <li>Kassan</li>
+            <li>Varu mottagning</li>
+            <li>Frontning</li>
+        </ul>
+        </div>
+
+
+        <div class="lasesmatstuga">
+            <button class="toggleLassesMatstuga" class="button"><a><span>Lasses Matstuga</span></a></button>
+        <ul><p id="job-title"><strong>Diskare/Kock/Catering (Alltiallo)</strong></p></ul>
+        <ul class="lasesmatstuga">
+            <li>Började i disken under gymnasiet</li>
+            <li>Fick hjälpa till i köket som kock och kallskänka</li>
+            <li>Efter jag skaffat körkort så fick jag köra ut catering</li>
+            <li>De sista åren kunde jag få anvsvar för leverans/dukning/diskning av flera evenemang på helgen</li>
+        </ul>
+        </div>
+
+
+
+
+
+    </div>
+
+    <div id="footer">Jag intygar att alla uppgifter är riktiga vill du veta mer är det bara att <a
+            href="mailto:magnus.kull@sanitarium.se?subject=Läste ditt CV nyss&body=Hej Magnus,%0D%0A%0D%0A">maila
+        mig</a>
+        eller kontakta <a
+                href="mailto:sun01@academicwork.se?subject=Har läst Magnus Kulls CV&body=Hej,%0D%0A%0D%0AJag vill att ni kontaktar mig för en offert och stämma av när vi kan boka in en intervju med Magnus Kull.">Acdemic
+            Work</a> i Sundsvall<p>Uppdaterades 2018-10</p></div>
+</div>
+</body>
+</html>

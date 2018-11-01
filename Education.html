@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head xmlns="http://www.w3.org/1999/html">
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magnus Kull CV Utbildning</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+
+
+
+
+</head>
+<body>
+<div class="wrapper">
+    <div id="header">
+        <p id="name">Magnus Kull CV Utbildning</p>
+
+        <i class="fa fa-linkedin" onclick="openLinkedin()" id="linkedinimage" style="font-size:32px"></i>
+        <i class="fa fa-github" onclick="openGitHub()" style="font-size:32px;color: #bd2c00"></i>
+        <i class="fa fa-envelope-o" onclick="sendmail()" id="emailID" style="font-size:32px;color:rgb(255,255,255)"></i>
+
+    </div>
+    <div id="header2">
+
+        <p><a href="Work.html" class="topMenu" ><span> Jobb </span></a><a href="Education.html" class="topMenu"><span > Utbildningar </span></a>
+            <a href="Personal.html" class="topMenu" ><span> Personlig beskrivning </span></a><a class="topMenu" href="downloads/CV2018.pdf.pdf" download="Magnus Kull CV"><span> <i class="fa fa-download"></i> PDF</span></a></p></div>
+    <div class="left">
+    </div>
+    <div class="right">
+
+
+        <div >
+        <table>
+            <tr>
+                <td>Skola/utbildare</td>
+                <td>Inriktning</td>
+                <td>Är</td>
+            </tr>
+            <tr>
+                <td>Academy</td>
+                <td>Java utvecklare</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Miroi</td>
+                <td>Fördjupad nätverksteknik</td>
+                <td>2016</td>
+            </tr>
+            <tr>
+                <td>John Bauer</td>
+                <td>IT - Nätverk</td>
+                <td>2003-2005</td>
+            </tr>
+            <!--
+            <tr>
+                <td>Lernia</td>
+                <td>VVS-montör</td>
+                <td>2011</td>
+            </tr>
+            -->
+        </table>
+        </div>
+        <p>
+
+        <button id="toggleTechnicalSkills" class="button"><a><span>Tekniska färdigheter</span></a></button>
+
+        <button id="toggleUniversityCourses" class="button"><a><span>Universitet kurser</span></a></button>
+
+        <button id="toggleOtherITCourses" class="button"><a><span>Övriga it-utbildningar</span></a></button>
+
+        <button id="toggleLeadershipEducation" class="button"><a><span>Ledarutbildningar</span></a></button>
+        <button id="toggleOtherMerits" class="button"><a><span>Övriga meriter</span></a></button>
+        </p>
+        <ul class="technicalSkills">
+
+            <button class="toggleTechnicalSkills" class="button"><a><span>Tekniska färdigheter</span></a></button>
+
+
+            <li><span id="course-name">Operativsystem :</span> Jobbat mest i Windows 7  och 10 även lite i Windows Server 2012 och linux (Ubuntu)</li>
+            <li><span id="course-name">Mjukvara:</span> Kodat mest i IntelliJ och använder Github med gitbash för ta hand om min versions hantering. Är bekväm med Word, Excel och PowerPoint. </li>
+            <li><span id="course-name">Programerings språk:</span> Java, C#, JavaScript, Python, HTML , CSS</li>
+        </ul>
+
+        <ul class="universityCourses">
+            <button class="toggleUniversityCourses" class="button"><a><span>Universitet kurser</span></a></button>
+
+
+            <li><span id="course-name">23 HP datavetenskap/informationsteknik </span> - <a href="https://miun.se" target="_blank">Mittunvieraitet</a></li>
+            <li><span id="course-name"> 6 HP fysik </span> - <a href="https://miun.se" target="_blank">Mittunvieraitet</a></li>
+            <li><span id="course-name"> 3 HP matte </span> - <a href="https://miun.se" target="_blank">Mittunvieraitet</a></li>
+
+        </ul>
+        <ul class="otherITCourses">
+            <button class="toggleOtherITCourses"  class="button"><a><span>Övriga it-utbildningar</span></a></button>
+
+
+            <li><span id="course-name"> HTML/CSS & JavaScript for Beginners </span> – <a href="https://www.w3schools.com/" target="_blank">w3school</a></li>
+            <li><span id="course-name"> Java, BI och nätverks säkerhet </span> - <a href="http://app.pluralsight.com/">pluralsight<a/></li>
+            <li><span id="course-name"> Java & C# </span> - <a href="https://www.codewars.com" target="_blank">codewars</a></li>
+            <li><span id="course-name"> C# </span> – <a href="https://app.codesignal.com/" target="_blank">codesignal</a></li>
+            <li><span id="course-name"> Blockprogramering för barnen </span> – <a href="https://code.org/learn" target="_blank">code.org</a></li>
+        </ul>
+
+
+        <ul class="leadershipEducation">
+            <button class="toggleLeadershipEducation" class="button"><a><span>Ledarutbildningar</span></a></button>
+
+            <li><span id="course-name"> Platformen Barn- och ungdomsledarutbildning  </span> - <a href="https://www.sisuidrottsutbildarna.se/doldasidoraldrematerial/forforeningold/fortranare/idrottenstranarutbildningar/Plattformen-barnochungdom" target="_blank">SISU idrottsutbildarna</a></li>
+            <li><span id="course-name"> IOGT NTO:s barn- och ungdomsledarutbildning  </span> - IOGT-NTO </li>
+            <li><span id="course-name"> Folksamledarcamp </span> - Västernorrlands Idrottsförbund </li>
+            <li><span id="course-name"> Organisation och Ledarskap </span> - Miroi </li>
+            <li><span id="course-name"> Bevakningsgruppbefäl </span> - Försvarsmakten F21 </li>
+        </ul>
+
+        <ul class="othermerits">
+            <button class="toggleOtherMerits" class="button"><a><span>Övriga meriter</span></a></button>
+
+            <li>
+                <span id="course-name">Körkort: </span>B
+            </li><li>
+            <span id="course-name">Idrotsledare: </span> Tidigare Indalds IF (Fotboll) nuvarande Sundsvalls Hung Gar (Traditionell Kung Fu)
+        </li>
+            <li>
+                <span id="course-name">Projektledare för flera idrotsslyft projekt: </span> 14 skolor, runt 1000 elever involverad och flera instruktörer
+            </li>
+            <li>
+                <span id="course-name">Styrlsearbete inom Sundsvalls Hung Gar: </span>Sekreterare 2007-2008, Kassör 2009
+            </li>
+        </ul>
+
+
+
+    </div>
+
+
+    <div id="footer">Jag intygar att alla uppgifter är riktiga vill du veta mer är det bara att <a
+            href="mailto:magnus.kull@sanitarium.se?subject=Läste ditt CV nyss&body=Hej Magnus,%0D%0A%0D%0A">maila
+        mig</a>
+        eller kontakta <a
+                href="mailto:sun01@academicwork.se?subject=Har läst Magnus Kulls CV&body=Hej,%0D%0A%0D%0AJag vill att ni kontaktar mig för en offert och stämma av när vi kan boka in en intervju med Magnus Kull.">Acdemic
+            Work</a> i Sundsvall<p>Uppdaterades 2018-10</p></div>
+</div>
+</body>
+</html>
