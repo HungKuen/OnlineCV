@@ -1,4 +1,5 @@
 .indexButton {
+    color: white;
     background-color: #4CAF50; /* Green */
     display: flex;
     justify-content: center; /* align horizontal */
