@@ -1,5 +1,6 @@
 table{
     border: 1px solid rgb(5, 212, 142);
+    margin-left: 1em;
 }
 td {
     padding: 2px;
