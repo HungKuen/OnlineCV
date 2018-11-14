@@ -1,6 +1,6 @@
 $(document).ready(function () {
 /*
- *Makes so only one education is displayed
+ *Makes so it can only show one education at a time
  */
     $("#toggleTechnicalSkills").click(function () {
         $('.hideBlock').css('display','none');
