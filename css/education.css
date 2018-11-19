@@ -9,7 +9,7 @@ td {
     padding: 2px;
     border: 1px solid rgb(5, 212, 142);
 }
-#course-name{
+.course-name{
     font-weight:bold;
 }
 
