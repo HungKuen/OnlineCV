@@ -1,59 +1,65 @@
-#header
-{
-    position: fixed;
+#header{
+    position: fixed ;
+    top: 0;
     z-index: 2;
-    height:40px;
+    text-align: center;
+    height:85px;
+    max-width: 800px;
     width: 98%;
     background-color: #4CAF50;/* Green */
-    margin-top:-10px;
+
     }
-#linkedinimage{
-    font-size: 32px;
-    margin-top: 10px;
-    margin-left: 10px;
+#linkedinIcon{
+    font-size: 24px;
+    margin-left: 0.5em;
     color: rgb(0,119,181);/* Blue */
+    text-decoration: none;
 }
-#header2{
-    position: fixed;
-    z-index: 1;
-    width: 98%;
-    background-color: #4CAF50;/* Green */
-    margin-top:20px;
+#githubIcon{
+    margin-left: 0.3em;
+    font-size: 24px;
+    color: #bd2c00;
+     text-detext-decoration:none;
 }
-#header2:hover {
-    cursor: pointer;
+#envelopIcon{
+    margin-left: 0.3em;
+    font-size: 24px;
+    color:rgb(255,255,255);
+    text-decoration:none;
 }
 .topMenu{
-    padding-left: 1em;
+    font-size: 24px;
+    margin-left: 0.5em;
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 #name {
-    float:left;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
+    margin-top: auto;
+	font-size: 40px;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;/* White */
+    margin-bottom: 5px;
 }
 a:hover {
     font-weight: bold;
 }
 .wrapper{
     max-width: 800px;
+    text-align: left;
+     margin: auto;
 }
 .informationBlock{
     float: left;
-    margin-top: 80px;
-    padding-left:5px;
+    margin-top: 70px;
     height: auto;
-    width: 99%;
-    background-color: #ffffff;
+    width: 90%;
 }
 #footer{
     clear:both;
     position: relative;
     background-color: #4CAF50;
     text-align: center;
+
 }
 .toggleHeadline{
     background-color: #ffffff; /* Vit */
@@ -91,7 +97,6 @@ a:hover {
     background-color: #ffffff; /* Vit */
     border: none;
     color: rgb(5, 212, 142);
-    padding: 0px 0px 0px 1em;
     font-size: 16px;
 }
 .button:hover {
@@ -110,6 +115,7 @@ a:hover {
     opacity: 0;
     top: 0;
     transition: 0.5s;
+    padding-left: 5px;
 }
 .button:hover span:after {
     opacity: 1;
