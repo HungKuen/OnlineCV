@@ -3,7 +3,7 @@
     <link type="text/css" rel="stylesheet" href="../css/education.css"/>
     <link type="text/css" rel="stylesheet" href="../css/main.css"/>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,7 +19,8 @@
 <body>
 <div class="wrapper">
     <div id="header">
-        <p id="name">Magnus Kull</p>
+        <div id="name">Magnus Kull</div>
+
 
         <a class="fa fa-linkedin" href="https://www.linkedin.com/in/magnus-kull-87186b121/" target="_blank" id="linkedinimage" style="font-size:32px"></a>
         <a class="fa fa-github" href="https://github.com/HungKuen" target="_blank" style="font-size:32px;color: #bd2c00"></a>
@@ -66,90 +67,136 @@
                 </tr>
 
 
+        <a href="work.html" class="topMenu"><span class="fas fa-user-tie"></span></a><a href="education.html"
+                                                                                        class="topMenu"><span
+            class="fas fa-user-graduate" style="color:white"></span></a><a href="personal.html" class="topMenu"><span
+            class="fas fa-user"></span></a><a class="topMenu far fa-file-pdf" href="../downloads/CV2018.pdf"
+                                                                  target="_blank"></a><a
+            class="fab fa-linkedin-in" href="https://www.linkedin.com/in/magnus-kull-87186b121/" target="_blank"
+            id="linkedinIcon"></a><a id="githubIcon" class="fab fa-github" href="https://github.com/HungKuen"
+                                     target="_blank"></a><a id="envelopIcon" class="far fa-envelope"
+                                                            href="mailto:magnus.kull@sanitarium.se?subject=Läste ditt CV nyss&body=Hej Magnus,"
+                                                            id="emailID"></a>
 
-            </table>
-        </div>
-        <p>
-            <button id="toggleTechnicalSkills" class="button "><a><span>Tekniska färdigheter</span></a></button>
-            <button id="toggleUniversityCourses" class="button "><a><span>Universitet kurser</span></a></button>
-            <button id="toggleOtherITCourses" class="button "><a><span>Övriga it-utbildningar</span></a></button>
-            <button id="toggleLeadershipEducation" class="button "><a><span>Ledarutbildningar</span></a></button>
-            <button id="toggleOtherMerits" class="button "><a><span>Övriga meriter</span></a></button>
-        </p>
-        <div class="technicalSkills hideBlock">
+    </div>
+    <div id="education">
+        <table>
+            <tr>
+                <td>Skola/utbildare</td>
+                <td>Inriktning</td>
+                <td>År</td>
+            </tr>
+            <tr>
+                <td>Academy</td>
+                <td>Java utvecklare</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Miroi</td>
+                <td>Fördjupad nätverksteknik</td>
+                <td>2016</td>
+            </tr>
+            <tr>
+                <td>Lernia</td>
+                <td>VVS-montör</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <td>John Bauer</td>
+                <td>IT - Nätverk</td>
+                <td>2003-2005</td>
+            </tr>
+        </table>
+    </div>
+    <p>
+        <button id="toggleTechnicalSkills" class="button "><a><span>Tekniska färdigheter</span></a></button>
+        <button id="toggleUniversityCourses" class="button "><a><span>Universitet kurser</span></a></button>
+        <button id="toggleOtherITCourses" class="button "><a><span>Övriga it-utbildningar</span></a></button>
+        <button id="toggleLeadershipEducation" class="button "><a><span>Ledarutbildningar</span></a></button>
+        <button id="toggleOtherMerits" class="button "><a><span>Övriga meriter</span></a></button>
+    </p>
+    <div class="technicalSkills hideBlock">
 
-            <a class="toggleHeadline toggleTechnicalSkills"><span>Tekniska färdigheter</span></a>
-            <ul>
-            <li><span id="course-name">Operativsystem :</span> Jobbat mest i Windows 7 och 10 även lite i Windows Server
-                2012 och linux (Ubuntu)</li>
-            <li><span id="course-name">Mjukvara:</span> Kodat mest i IntelliJ och använder Github med gitbash för ta
-                hand om min versions hantering. Är bekväm med Word, Excel och PowerPoint.</li>
-            <li><span id="course-name">Programerings språk:</span> Java, C#, JavaScript, Python, HTML , CSS</li>
-            </ul>
-        </div>
+        <a class="toggleHeadline toggleTechnicalSkills"><span>Tekniska färdigheter</span></a>
+        <ul>
+            <li><span class="course-name">Operativsystem :</span> Jobbat mest i Windows 7 och 10 även lite i Windows Server
+                2012 och linux (Ubuntu)
+            </li>
+            <li><span class="course-name">Mjukvara:</span> Kodat mest i IntelliJ och använder Github med gitbash för ta
+                hand om min versions hantering. Är bekväm med Word, Excel och PowerPoint.
+            </li>
+            <li><span class="course-name">Programerings språk:</span> Java, C#, JavaScript, Python, HTML , CSS</li>
+        </ul>
+    </div>
 
-        <div class="universityCourses hideBlock">
-            <a class="toggleHeadline toggleUniversityCourses"><span>Universitet kurser</span></a>
-            <ul>
-            <li><span id="course-name">23 HP datavetenskap/informationsteknik </span> - <a href="https://miun.se" target="_blank">Mittunvieraitet</a> </li>
-            <li><span id="course-name"> 6 HP fysik </span> - <a href="https://miun.se" target="_blank">Mittunvieraitet</a></li>
-            <li><span id="course-name"> 3 HP matte </span> - <a href="https://miun.se" target="_blank">Mittunvieraitet</a></li>
-            </ul>
-        </div>
-        <div class="otherITCourses hideBlock">
-            <a class="toggleHeadline toggleOtherITCourses">
-                <span>Övriga it-utbildningar</span></a>
-            <ul>
-            <li><span id="course-name"> HTML/CSS & JavaScript for Beginners </span> – <a href="https://www.w3schools.com/" target="_blank">w3school</a></li>
-            <li><span id="course-name"> Java, BI och nätverks säkerhet </span> - <a href="http://app.pluralsight.com/">pluralsight</a></li>
-            <li><span id="course-name"> Java & C# </span> - <a href="https://www.codewars.com" target="_blank">codewars</a></li>
-            <li><span id="course-name"> C# </span> – <a href="https://app.codesignal.com/" target="_blank">codesignal</a></li>
-            <li><span id="course-name"> Blockprogramering för barnen </span> – <a href="https://code.org/learn" target="_blank">code.org</a></li>
-                </ul>
-            </div>
+    <div class="universityCourses hideBlock">
+        <a class="toggleHeadline toggleUniversityCourses"><span>Universitet kurser</span></a>
+        <ul>
+            <li><span class="course-name">23 HP datavetenskap/informationsteknik </span> - <a href="https://miun.se"
+                                                                                           target="_blank">Mittunvieraitet</a>
+            </li>
+            <li><span class="course-name"> 6 HP fysik </span> - <a href="https://miun.se"
+                                                                target="_blank">Mittunvieraitet</a></li>
+            <li><span class="course-name"> 3 HP matte </span> - <a href="https://miun.se"
+                                                                target="_blank">Mittunvieraitet</a></li>
+        </ul>
+    </div>
+    <div class="otherITCourses hideBlock">
+        <a class="toggleHeadline toggleOtherITCourses">
+            <span>Övriga it-utbildningar</span></a>
+        <ul>
+            <li><span class="course-name"> HTML/CSS & JavaScript for Beginners </span> – <a
+                    href="https://www.w3schools.com/" target="_blank">w3school</a></li>
+            <li><span class="course-name"> Java, BI och nätverks säkerhet </span> - <a href="http://app.pluralsight.com/">pluralsight</a>
+            </li>
+            <li><span class="course-name"> Java & C# </span> - <a href="https://www.codewars.com"
+                                                               target="_blank">codewars</a></li>
+            <li><span class="course-name"> C# </span> – <a href="https://app.codesignal.com/"
+                                                        target="_blank">codesignal</a></li>
+            <li><span class="course-name"> Blockprogramering för barnen </span> – <a href="https://code.org/learn"
+                                                                                  target="_blank">code.org</a></li>
+        </ul>
+    </div>
 
-        <div class="leadershipEducation hideBlock">
-            <a class="toggleHeadline toggleLeadershipEducation">
-                <span>Ledarutbildningar</span></a>
-            <ul>
-            <li><span id="course-name"> Platformen Barn- och ungdomsledarutbildning  </span> - <a
+    <div class="leadershipEducation hideBlock">
+        <a class="toggleHeadline toggleLeadershipEducation">
+            <span>Ledarutbildningar</span></a>
+        <ul>
+            <li><span class="course-name"> Platformen Barn- och ungdomsledarutbildning  </span> - <a
                     href="https://www.sisuidrottsutbildarna.se/doldasidoraldrematerial/forforeningold/fortranare/idrottenstranarutbildningar/Plattformen-barnochungdom"
                     target="_blank">SISU idrottsutbildarna</a></li>
-            <li><span id="course-name"> IOGT NTO:s barn- och ungdomsledarutbildning  </span> - IOGT-NTO</li>
-            <li><span id="course-name"> Folksamledarcamp </span> - Västernorrlands Idrottsförbund</li>
-            <li><span id="course-name"> Organisation och Ledarskap </span> - Miroi</li>
-            <li><span id="course-name"> Bevakningsgruppbefäl </span> - Försvarsmakten F21</li>
-            </ul>
-        </div>
+            <li><span class="course-name"> IOGT NTO:s barn- och ungdomsledarutbildning  </span> - IOGT-NTO</li>
+            <li><span class="course-name"> Folksamledarcamp </span> - Västernorrlands Idrottsförbund</li>
+            <li><span class="course-name"> Organisation och Ledarskap </span> - Miroi</li>
+            <li><span class="course-name"> Bevakningsgruppbefäl </span> - Försvarsmakten F21</li>
+        </ul>
+    </div>
 
-        <div class="otherMerits hideBlock">
-            <a class="toggleHeadline toggleOtherMerits"><span>Övriga meriter</span></a>
-            <ul>
+    <div class="otherMerits hideBlock">
+        <a class="toggleHeadline toggleOtherMerits"><span>Övriga meriter</span></a>
+        <ul>
             <li>
-                <span id="course-name">Körkort: </span>B
+                <span class="course-name">Körkort: </span>B
             </li>
             <li>
-                <span id="course-name">Idrotsledare: </span> Tidigare, Indalds IF med Fotboll. Nuvarande, Sundsvalls Hung Gar med
+                <span class="course-name">Idrotsledare: </span> Tidigare, Indalds IF med Fotboll. Nuvarande, Sundsvalls
+                Hung Gar med
                 Traditionell Kung Fu.
             </li>
             <li>
-                <span id="course-name">Projektledare för flera idrotsslyft projekt: </span> 14 skolor, runt 1000 elever
+                <span class="course-name">Projektledare för flera idrotsslyft projekt: </span> 14 skolor, runt 1000 elever
                 involverad och flera instruktörer
             </li>
             <li>
-                <span id="course-name">Styrlsearbete inom Sundsvalls Hung Gar: </span>Sekreterare 2007-2008, Kassör 2009
+                <span class="course-name">Styrlsearbete inom Sundsvalls Hung Gar: </span>Sekreterare 2007-2008, Kassör 2009
             </li>
-            </ul>
-        </div>
-
-
+        </ul>
     </div>
 
 
     <div id="footer">Jag intygar att alla uppgifter är riktiga vill du veta mer är det bara att <a
             href="mailto:magnus.kull@sanitarium.se?subject=Läste ditt CV nyss&body=Hej Magnus,%0D%0A%0D%0A">maila
         mig</a>
-        eller kontakta <a
-                href="mailto:sun01@academicwork.se?subject=Har läst Magnus Kulls CV&body=Hej,%0D%0A%0D%0AJag vill att ni kontaktar mig för en offert och stämma av när vi kan boka in en intervju med Magnus Kull.">Academic Work</a> i Sundsvall<p id="date"></p></div>
+        <p id="date"></p></div>
 </div>
 </body>
