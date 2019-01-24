@@ -2,10 +2,6 @@ $(document).ready(function () {
 /*
  *Makes so only one employer is displayed
  */
-	$("#togglePlanet4us").click(function () {
-       // $('.hideBlock').css('display','none');
-        $(".planet4us").toggle();
-    });
     $("#toggleCybercom").click(function () {
         $('.hideBlock').css('display','none');
         $(".cybercom").toggle();
@@ -13,11 +9,11 @@ $(document).ready(function () {
     $("#toggleTelia").click(function () {
         $('.hideBlock').css('display','none');
         $(".telia").toggle();
-    });
+       });
     $("#toggleBevaka").click(function () {
         $('.hideBlock').css('display','none');
         $(".bevaka").toggle();
-    });
+       });
     $("#toggleMitab").click(function () {
         $('.hideBlock').css('display','none');
         $(".mitab").toggle();
