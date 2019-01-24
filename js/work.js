@@ -2,6 +2,10 @@ $(document).ready(function () {
 /*
  *Makes so only one employer is displayed
  */
+	$("#togglePlanet4us").click(function () {
+        $('.hideBlock').css('display','none');
+        $(".planet4us").toggle();
+    });
     $("#toggleCybercom").click(function () {
         $('.hideBlock').css('display','none');
         $(".cybercom").toggle();
