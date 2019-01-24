@@ -1,6 +1,7 @@
 $(document).ready(function () {
 /*
  *Set id date to last modified day, month and year
+ *Not working as intended, looks like I update everypage every day.
  */
     let myDate = document.lastModified;
     let month
