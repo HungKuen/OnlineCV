@@ -2,6 +2,10 @@ $(document).ready(function () {
 /*
  *Makes so only one employer is displayed
  */
+    $("#togglePayEx").click(function ()     {
+        $('.hideBlock').css('display','none');
+        $(".payex").toggle();
+    });
 	$("#togglePlanet4us").click(function () {
         $('.hideBlock').css('display','none');
         $(".planet4us").toggle();
@@ -33,6 +37,9 @@ $(document).ready(function () {
 /*
  *Hides the employer by clicking the showing employer title
  */
+	$(".togglePayEx").click(function () {
+		$(".payex").toggle();
+	});
     $(".toggleCybercom").click(function () {
         $(".cybercom").toggle();
     });
